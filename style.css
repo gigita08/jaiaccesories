@@ -1,4 +1,15 @@
         /*Index*/
+
+        #inicio button{
+          background-color: rgb(255, 0, 166);
+          color: rgb(255, 255, 255);
+          padding: 10px 20px;
+          border: none;
+          border-radius: 15px;
+          cursor: pointer;
+      }
+
+        
         /* Estilos generales */
         body {
             margin: 0;
@@ -6,7 +17,7 @@
         }
 
         nav {
-            background-color: #333;
+            background-color: rgb(255, 0, 166);
             position: relative;
         }
 
@@ -49,7 +60,7 @@
         }
 
         nav ul li a:hover {
-            background-color: #575757;
+            background-color: rgb(255, 0, 166);
         }
 
 /*inicio***/
@@ -174,7 +185,7 @@
 
 
 
-  /*quienessomos*/
+  /*quienessomos************/
 
   /* Estilado para el contenedor principal */
 .responsive-image-container {
@@ -203,12 +214,12 @@ body {
     padding: 20px;
     background-color: #f8f8f8;
     text-align: center;
-    border-top: 3px solid #333;
+    
   }
   
   .reviews-section h2 {
     font-size: 24px;
-    color: #333;
+    color: rgb(255, 0, 166);
     margin-bottom: 20px;
   }
   
@@ -226,7 +237,7 @@ body {
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
     width: 280px;
     padding: 15px;
     text-align: center;
@@ -246,12 +257,12 @@ body {
   .review-content h3 {
     font-size: 16px;
     margin: 5px 0;
-    color: #555;
+    color: #000000;
   }
   
   .review-content p {
     font-size: 14px;
-    color: #777;
+    color: #000000;
     line-height: 1.4;
   }
   
@@ -261,7 +272,7 @@ body {
     margin: 5px 0;
   }
   
-  /*botones de pag*/
+  /*botones de pag***********/
 
   .facebook {
     color: rgb(255, 0, 166);
@@ -313,4 +324,15 @@ body {
   }
   
   
+#bienvenida button{
+  background-color: rgb(255, 0, 166);
+          color: rgb(255, 255, 255);
+          padding: 10px 20px;
+          border: none;
+          border-radius: 15px;
+          cursor: pointer;
+      }
+
  
+
+
