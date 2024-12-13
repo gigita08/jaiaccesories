@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jai Accesories</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/jailogo.jpeg"/>
+</head>
+<body>
+    <!-- Menú de navegación -->
+    <nav>
+        <div class="menu">
+            <a href="index.html" class="logo">Jai Accessories</a> 
+            <span class="toggle" id="menu-toggle">&#9776;</span>
+        </div>
+        <ul id="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="quienesomos.html">¿Quienes Somos?</a></li>
+            <li><a href="catalogo.html">Catálogo</a></li>
+           
+        </ul>
+    </nav>
+
+      <!-- Banner -->
+      <div class="banner">
+        <img src="img/jai.jpeg" alt="Banner">
+        <div class="content">
+            <h1>Inspirate & Crea</h1>
+            <p>"Cada creación cuenta una historia a través de tus manos"</p>
+            <li><a href="catalogo.html"></a><button>Explorar Nuestra Colección</button></li>
+        </div>
+    </div>
+    
+
+
+
+    <!-- Contenido del sitio -->
+    <section id="inicio">
+        
+        <h1>Nuestra Historia</h1>
+        <p>Pasión por las Creaciones</p>
+        <button>Conócenos Más</button>
+        <p>En JAI Accesories, somos una empresa familiar que nació de la necesidad y la pasión por la creación. Desde 2008, hemos estado dedicados a ofrecer productos de alta calidad. Nuestra misión es brindarte el mejor servicio que reflejen nuestra historia y compromiso por las manualidades.</p>
+    </section>
+
+    <br>
+    <br>
+
+    <div class="container">
+        <!-- Categoría: Cintas -->
+        <div class="category">
+            
+            <img src="img/cintas.jpeg" alt="Cintas" style="width:100%; height:auto;">
+            <h2 style="text-align: center;">Cintas</h2>
+            <h3>Descubre nuestra varidad de cintas en tamaños y motivos que tenemos que ofrecerte</h3>
+          <button>Ver Más</button>
+          <br>
+          <br>
+        </a>
+        </div>
+      
+        <!-- Categoría: Viniles -->
+        <div class="category">
+          
+            <img src="img/viniles.jpeg" alt="Viniles" style="width:100%; height:auto;">
+            <h2 style="text-align: center;">Viniles</h2>
+            <h3>Encuentra diferentes estampados en nuestros viniles; sólidos, brillos y personajes</h3>
+            <button>Ver Más</button>
+            <br>
+            <br>
+        </a>
+        </div>
+      
+        <!-- Categoría: Resinas Acrílicas -->
+        <div class="category">
+          
+            <img src="img/resinas.jpeg" alt="Resinas Acrílicas" style="width:100%; height:auto;">
+            <h2 style="text-align: center;">Resinas Acrílicas</h2>
+            <h3>Contamos con una variedad de personajes y/o motivos en resinas acrílicas a tu gusto</h3>
+            <button>Ver Más</button>
+            <br>
+            <br>
+        </a>
+        </div>
+      </div>
+      
+      <!--Angular form-->
+      <div class="container">
+<form>
+    Usuario: <input type="text" class="form-control">
+    Password: <input type="password" class="form-control"><br/>
+    <button class="btn btn-primary" type="submit">Enviar</button>
+</form>
+</div>
+
+
+
+    <script>
+        // Función para mostrar/ocultar el menú
+        document.getElementById("menu-toggle").addEventListener("click", function () {
+            const navLinks = document.getElementById("nav-links");
+            navLinks.classList.toggle("show");
+        });
+    </script>
+</body>
+</html>

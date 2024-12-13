@@ -1,0 +1,269 @@
+
+        /*Index*/
+        /* Estilos generales */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        nav {
+            background-color: #333;
+            position: relative;
+        }
+
+        nav .menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        nav .menu .logo {
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+        }
+
+        nav .menu .toggle {
+            font-size: 24px;
+            color: white;
+            cursor: pointer;
+            display: none;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0;
+        }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+
+        nav ul li a:hover {
+            background-color: #575757;
+        }
+
+        /* Estilos para pantallas pequeñas */
+        @media (max-width: 768px) {
+            nav .menu .toggle {
+                display: block;
+            }
+
+            nav ul {
+                display: none;
+                flex-direction: column;
+                width: 100%;
+                background-color: #333;
+                position: absolute;
+                top: 100%;
+                left: 0;
+            }
+
+            nav ul.show {
+                display: flex;
+            }
+
+            nav ul li a {
+                padding: 15px;
+            }
+        }
+
+        /*banner*/
+    
+        .banner .content button {
+            background-color: #ffffff;
+            color: rgb(255, 0, 166);
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .banner .content p {
+            font-size: 1.2em;
+        }
+
+        .banner .content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-align: center;
+            z-index: 5;
+        }
+
+        .banner .content h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        .banner img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .banner {
+            
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+        }
+
+        /*categorias estilo*/
+        /* Contenedor principal de las categorías */
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Estilo para las categorías */
+  .category {
+    width: 250px;
+    border: 3px solid rgb(255, 0, 166); /* Añade el borde */
+    border-radius: 8px; /* Bordes redondeados */
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.2s ease; /* Efecto hover opcional */
+  }
+  
+  /* Estilo para la imagen dentro de la categoría */
+  .category img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover; /* Asegura que la imagen se ajuste bien */
+  }
+  
+  /* Estilo para el texto del título de la categoría */
+  .category h2 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #333;
+  }
+
+
+
+  /*quienessomos*/
+
+  /* Estilado para el contenedor principal */
+.responsive-image-container {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  /* Estilado responsivo para la imagen */
+  .responsive-image-container img {
+    max-width: 100%; /* La imagen nunca excederá el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 8px; /* Bordes redondeados opcional */
+  }
+
+
+  /*reviews*/
+  
+  /* General para el diseño básico */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilado para la sección de Reviews */
+  .reviews-section {
+    padding: 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+    border-top: 3px solid #333;
+  }
+  
+  .reviews-section h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Contenedor para las tarjetas de reviews */
+  .reviews-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+  
+  /* Estilado de cada tarjeta de review */
+  .review-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .review-card:hover {
+    transform: translateY(-5px);
+  }
+  
+
+  
+  /* Contenido de la reseña */
+  .review-content h3 {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .review-content p {
+    font-size: 14px;
+    color: #777;
+    line-height: 1.4;
+  }
+  
+  .review-content h4 {
+    font-size: 16px;
+    color: rgb(255, 0, 166); /* Estilo rosa para el icono de estrellas */
+    margin: 5px 0;
+  }
+  
+  /*botones de pag*/
+
+  .facebook {
+    color: rgb(255, 0, 166);
+  }
+  .instagram {
+    color: rgb(255, 0, 166);
+  }
+  .tiktok {
+    color: rgb(255, 0, 166);
+  }
+  
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 10px;
+    
+  }
+
+  
+  
+ 

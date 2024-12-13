@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jai Accesories</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/jailogo.jpeg"/>
+</head>
+<body>
+    <!-- Menú de navegación -->
+    <nav>
+        <div class="menu">
+            <a href="index.html" class="logo">Jai Accessories</a>
+            <span class="toggle" id="menu-toggle">&#9776;</span>
+        </div>
+        <ul id="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="quienesomos.html">¿Quienes Somos?</a></li>
+            <li><a href="catalogo.html">Catálogo</a></li>
+           
+        </ul>
+    </nav>
+
+
+
+    <script>
+        // Función para mostrar/ocultar el menú
+        document.getElementById("menu-toggle").addEventListener("click", function () {
+            const navLinks = document.getElementById("nav-links");
+            navLinks.classList.toggle("show");
+        });
+    </script>
+
+
+</body>
+</html>
