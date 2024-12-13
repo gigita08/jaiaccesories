@@ -1,4 +1,3 @@
-
         /*Index*/
         /* Estilos generales */
         body {
@@ -52,6 +51,15 @@
         nav ul li a:hover {
             background-color: #575757;
         }
+
+/*inicio***/
+#inicio{
+  text-align: left;
+  padding: 40px;
+}
+
+
+
 
         /* Estilos para pantallas pequeñas */
         @media (max-width: 768px) {
