@@ -102,7 +102,7 @@
             }
         }
 
-        /*banner*/
+        /*banner*************/
     
         .banner .content button {
             background-color: #ffffff;
@@ -111,10 +111,12 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            
         }
 
         .banner .content p {
             font-size: 1.2em;
+            
         }
 
         .banner .content {
@@ -125,11 +127,13 @@
             color: white;
             text-align: center;
             z-index: 5;
+            
         }
 
         .banner .content h1 {
             font-size: 2.5em;
             margin: 0;
+            
         }
 
         .banner img {
@@ -137,11 +141,11 @@
             height: auto;
             display: block;
             filter: blur(2px) brightness(0.5); /*poner borrosa la img*/
-            
+           
         }
 
         .banner {
-            
+          position: relative;
             width: 100%;
             height: auto;
             overflow: hidden;
